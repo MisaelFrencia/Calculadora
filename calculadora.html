@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Misael Frencia</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora</h1>
+        <input id="numero1" placeholder="Introducir numero" maxlength="20" ><br>
+        <select id="operacion">
+            <option disabled selected>-Elegir Operación-</option>
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="divicion">Divición</option>
+        </select><br>
+        <input id="numero2" placeholder="Introducir numero" maxlength="20"><br>
+        <button onclick="funcionBoton()">Resultado</button>
+        <p id="resultado">0</p>
+        <button onclick="reset()" id="resetear">Restablecer</button>
+    </main>
+</body>
+</html>
