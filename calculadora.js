@@ -1,6 +1,6 @@
 // Funciones para traer valores desde HTML//
 function traerValor(id) {
-    return (document.getElementById(id).value);}
+    return parseFloat(document.getElementById(id).value);}
 function traerOperario(id) {
     return document.getElementById(id).value;}
 
